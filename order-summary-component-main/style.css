@@ -36,9 +36,6 @@
     background-color: var(--Very-pale-blue);
     border-radius: 15px;
     overflow: hidden;
-    
-    
-    
 }
 
 .card-img{
@@ -51,24 +48,23 @@
     text-align: center;
     padding: 5px 30px 40px 30px;
 }
-
+.card-body >*{
+    margin-top: 20px;
+}
 .card-title{
 text-transform: capitalize;
 font-weight: bold;
-margin-top: 20px;
 color: var(--Dark-blue);
 
 
 }
 .card-text{
-margin-top: 15px;
 font-size: 13px;
 
 color: var(--Desaturated-blue);
 }
 
 .annual-plan{
-    margin-top: 30px;
 display: flex;
 align-items: center;
 gap: 10px;
@@ -76,6 +72,7 @@ gap: 10px;
 
 .annual-plan-text{
     padding: 5px;
+    text-align: start;
 }
 .annual-plan-text .title{
     font-weight: 600;
@@ -86,7 +83,7 @@ gap: 10px;
 .annual-plan-text .price{
     margin-top: 5px;
     font-size: 14px;
-color: var(--Desaturated-blue);
+    color: var(--Desaturated-blue);
 }
 
 a{
@@ -102,11 +99,13 @@ a{
 a:hover{
     cursor: pointer;
     color: var(--Desaturated-blue);
+    text-decoration: none;
 }
 .buttons{
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 
@@ -114,8 +113,6 @@ a:hover{
 all: unset;
 border-radius: 10px;
 padding: 7px 0;
-font-weight: 600;
-font-size: 12px;
 color: var(--Very-pale-blue);
 background-color: var(--Bright-blue);
 box-shadow: 2px 2px 10px rgba(0,0, 0,0.2) ;
@@ -127,10 +124,8 @@ transition: background-color 0.4s;
 }
 .buttons .btn-cancel{
     all: unset;
-    margin-top: 15px;
-    font-weight: 600;
+    margin-top: 30px;
     color: var(--Desaturated-blue);
-    font-size: 12px;
     transition: color 0.3s;
 }
 .buttons .btn-cancel:hover{
