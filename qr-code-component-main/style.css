@@ -6,10 +6,17 @@
 --Dark-blue: hsl(218, 44%, 22%);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
 
 .container{
     background-color: var(--Light-gray);
-    border: solid 4px red;
+    margin: 0px;
+    padding: 0px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,7 +26,7 @@
 
 .card{
     background-color: var(--White);
-    width: 250px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,21 +40,20 @@
 }
 
 .card-content{
-    width: 80%;
-    margin: 0 auto;
+    width: 85%;
+    margin-top: 20px;
     padding: 0 0px;
     text-align: center;
 }
 
 .card-title{
     font-weight: bolder;
-    font-size: large;
+    font-size: 22px;
+    
 }
 
 
 .card-text{
-    padding: 0 14px;
-    text-align: center;
-    
+    margin-top: 15px;    
     color: var(--Grayish-blue);
 }
